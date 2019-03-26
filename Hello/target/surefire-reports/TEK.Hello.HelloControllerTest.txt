@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TEK.Hello.HelloControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.363 s <<< FAILURE! - in TEK.Hello.HelloControllerTest
+getHello(TEK.Hello.HelloControllerTest)  Time elapsed: 0.047 s  <<< FAILURE!
+java.lang.AssertionError: 
+Response content
+Expected: "Greeting Earthings! Sent Via SpringBoot"
+     but: was "Greetings from Spring Boot!"
+	at TEK.Hello.HelloControllerTest.getHello(HelloControllerTest.java:32)
+
